@@ -1,1 +1,1 @@
-# http://blog.okjdev.io/Subnetting
+## https://okj.github.io/Subnetting/
