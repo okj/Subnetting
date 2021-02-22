@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>  
+<html>  
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Subnetting is fun</title>  
+    <script type="text/javascript" src="main.js"></script>  
+  </head>  
+  <body>  
+    
+    <form name="form" onsubmit="calc(this);return false;">
+        <div>
+            <input name="oct1" type="number" min="0" max="223" value="200">.
+            <input name="oct2" type="number" min="0" max="255" value="10">.
+            <input name="oct3" type="number" min="0" max="255" value="0">.
+            <input type="number" min="0" max="0" value="0">
+        </div>
+        <br>
+        <div>
+            <input type="radio" id="subnets" name="option" checked> Number of needed subnets
+            <input name="subnets" type="number" value="1" min="1">
+        </div>
+        <div>
+            <input type="radio" id="hosts" name="option"> Number of needed usable hosts (per subnet)
+            <input name="hosts" type="number" value="1" min="1">
+        </div>
+
+        <input type="submit" value="Calc">
+    </form>
+    <div id="output"></div>
+  </body>  
+</html>  
+
